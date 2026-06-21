@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quelle augmentation mammaire est faite pour vous ? | Dr Karsenti</title>
+  <meta name="description" content="Questionnaire d'orientation pour mieux comprendre les options d'augmentation mammaire : Preservé®, dual plan, composite ou mastopexie." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/accueil" aria-label="Accueil">
+      <span class="monogram">GK</span>
+      <span class="brand-text">Dr Guillaume Karsenti</span>
+    </a>
+    <nav class="nav">
+      <a href="https://drkarsenti.com" target="_blank" rel="noreferrer">Site principal</a>
+      <a href="#/accueil">Questionnaire</a>
+      <a href="https://www.doctolib.fr/" target="_blank" rel="noreferrer" class="rdv">Rendez-vous</a>
+    </nav>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <template id="screen-template">
+    <section class="screen">
+      <aside class="visual-panel">
+        <div class="visual-card">
+          <div class="visual-kicker"></div>
+          <div class="visual-title"></div>
+          <div class="visual-illustration"></div>
+          <p class="visual-caption"></p>
+        </div>
+      </aside>
+      <section class="content-panel">
+        <div class="content-inner">
+          <button class="back" type="button">‹ Retour</button>
+          <p class="eyebrow"></p>
+          <h1></h1>
+          <p class="lead"></p>
+          <div class="helper"></div>
+          <div class="fields"></div>
+          <div class="answers"></div>
+          <p class="disclaimer"></p>
+        </div>
+      </section>
+    </section>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
